@@ -2,7 +2,7 @@
 
 Loads `cell-count.csv` into SQLite, runs frequency and responder analyses, and serves a Streamlit app.
 
-**Dashboard:** _(paste Streamlit URL after deploy)_ · locally: `make dashboard` → port 8501
+**Dashboard:** https://vit2t7d84x5b6hms5blv9j.streamlit.app/ · locally: `make dashboard` → port 8501
 
 ## How to run
 
@@ -64,4 +64,4 @@ Mann-Whitney on % frequency; Benjamini–Hochberg q across five cell types:
 
 ## Dashboard deploy
 
-Push to GitHub → [share.streamlit.io](https://share.streamlit.io) → main file `dashboard/app.py`, Python **3.11**. Update the Dashboard line above with the public URL.
+Hosted on Streamlit Community Cloud (`dashboard/app.py`, Python 3.11). Redeploy from [share.streamlit.io](https://share.streamlit.io) after pushing to `main`.
