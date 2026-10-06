@@ -1,0 +1,17 @@
+# Generated artifacts (rebuilt by `make pipeline`)
+*.db
+*.db-journal
+*.db.tmp
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
